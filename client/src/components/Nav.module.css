@@ -1,0 +1,38 @@
+.search {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    width: 300px;
+    font-size: 16pt;
+    padding: 10px;
+}
+
+.title {
+    font-size: 18pt;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    padding: 1em;
+    align-items: center;
+  }
+
+  .newBlogButton {
+    height: fit-content;
+    padding: 1em;
+    background-color: rgb(34, 141, 212);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 12pt;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .newBlogButton:hover {
+    background-color: rgb(5, 113, 185);
+  }

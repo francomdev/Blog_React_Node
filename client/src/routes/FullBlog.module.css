@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 2em;
+    width: 80%;
+    border-radius: 5px;
+    margin: 1em;
+    cursor: pointer;
+    
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(241, 241, 241));
+}
+
+
+.title {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.author {
+    text-decoration: none;
+    color: black;
+}
+
+.author:hover {
+    font-weight: 500;
+}
